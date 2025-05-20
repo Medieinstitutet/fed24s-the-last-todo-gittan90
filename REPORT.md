@@ -49,8 +49,8 @@ för att köra projektet.
 ## 🔍 ESLint-varningar:
 
 
-## 🏆 **Betyg: G**
-📌 **Motivering:** Koden uppfyller kraven för betyg G. Den visar en lista med att-göra-punkter, möjliggör tillägg av nya punkter, och hanterar borttagning av klara punkter. Koden har grundläggande struktur och fungerar som avsett.
+## 🏆 **Betyg: IG**
+📌 **Motivering:** Koden uppfyller inte alla krav för betyg G. Den saknar en hårdkodad lista med uppgifter från start, och det finns ingen funktionalitet för att markera uppgifter 'oklara'.
 
 💡 **Förbättringsförslag:**  
-För att uppnå VG skulle det behövas implementera fler funktioner, såsom att visa även klara uppgifter och kunna flytta dem tillbaka till icke-klara, tillåta sortering av uppgifterna samt använda ett grafiskt ramverk som Material UI eller Tailwind. Kodstruktur och separation av komponenter kan också förbättras genom att bryta ned komponenterna ytterligare för bättre återanvändbarhet.
+För att uppfylla G-kraven, börja med att skapa en hårdkodad lista med Todo-punkter som standard istället för att starta med en tom lista. Implementera dessutom funktionalitet för att återställa 'klara' uppgifter till 'oklara'. För ett högre betyg, som VG, överväg att implementera grafiska ramverk som Material UI eller Tailwind, och lägg till funktionalitet för att sortera Todo-uppgifterna. Kontrollera också den duplicerade CSS-koden och strukturera koden för att undvika redundans.
