@@ -49,8 +49,8 @@ för att köra projektet.
 ## 🔍 ESLint-varningar:
 
 
-## 🏆 **Betyg: IG**
-📌 **Motivering:** Koden uppfyller inte alla krav för betyg G. Den saknar en hårdkodad lista med uppgifter från start, och det finns ingen funktionalitet för att markera uppgifter 'oklara'.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Koden uppfyller alla krav för betyget G; det finns en lista av todos som kan bli markerade som klara och tas bort från listan, och en ny 'todo' kan läggas till via ett formulär. Designen är ordnad inom en ul/li-struktur vilket är enligt specifikationen. Det finns dock några aspekter av kodkvaliteten som kan förbättras.
 
 💡 **Förbättringsförslag:**  
-För att uppfylla G-kraven, börja med att skapa en hårdkodad lista med Todo-punkter som standard istället för att starta med en tom lista. Implementera dessutom funktionalitet för att återställa 'klara' uppgifter till 'oklara'. För ett högre betyg, som VG, överväg att implementera grafiska ramverk som Material UI eller Tailwind, och lägg till funktionalitet för att sortera Todo-uppgifterna. Kontrollera också den duplicerade CSS-koden och strukturera koden för att undvika redundans.
+För att nå VG-betyget skulle du behöva implementera några ytterligare funktionaliteter, t.ex. visa klara uppgifter och möjligheten att markera dem som oklara igen, samt implementera sorteringsfunktionalitet för todos. På kodkvalitetssidan, var noggrann med att undvika dubbletter i CSS-filerna och försäkra dig om att använda mappar/system som är lättbegripliga för att separera CSS för olika komponenter, speciellt om du använder Tailwind eller Material UI. Du kan också tänka på att bryta ner större komponenter i mindre delar för att förbättra läsbarheten. Slutligen, istället för `Date.now()` för ID:n kan du använda ett id-generatorprogramvara som UUID för att försäkra dig att du har unika värden.
